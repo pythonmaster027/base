@@ -1,1 +1,35 @@
+:root{
+	--red: red;
+    --blue: blue;
+    --yellow: yellow;
+    --green: green;
+}
 
+*{
+    font-family: arial;
+}
+
+#red{
+	color: var(--red); 
+}
+
+#blue{
+	color: var(--blue);
+}
+
+#yellow{
+	color: var(--yellow);
+}
+
+#green{
+	color: var(--green);
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	text-decoration: none;
+    color: var(--blue);
+}
