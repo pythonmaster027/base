@@ -9,5 +9,7 @@ const panera = {storeName: "Panera", location:"200 Hancock St", deliveryFee:2};
 
 
 const main = [mcdonalds,burgerKing,wendys,popeyes,subway,kfc,dunkin,panera];
-
+for(i=0;i<8;i++){
+    console.log(main[i].storeName, " @ ", main[i].location);
+}
 
